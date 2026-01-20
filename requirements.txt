@@ -1,5 +1,40 @@
-sentence-transformers
-faiss-cpu
+# Core Application
+streamlit
+google-genai
+Pillow
 PyPDF2
-numpy
-huggingface-hub
+
+# LangChain Core (pin to 0.1.x to keep RetrievalQA import path)
+langchain>=0.1,<0.2
+langchain-core>=0.1,<0.2
+
+# LangChain Community (for document loaders and FAISS)
+langchain-community>=0.0.1,<0.1
+
+# LangChain Text Splitters
+langchain-text-splitters>=0.0.1,<0.1
+
+# Vector Store
+faiss-cpu
+
+# Gemini Integration
+langchain-google-genai>=0.0.1,<0.1
+
+# Document loaders dependencies
+unstructured
+filetype
+
+# Core LangChain dependencies
+langsmith
+orjson
+pydantic>=2.0
+requests
+tenacity
+aiohttp
+dataclasses-json
+jsonpatch
+PyYAML
+packaging
+SQLAlchemy
+httpx-sse
+pydantic-settings
