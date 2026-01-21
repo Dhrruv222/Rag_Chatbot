@@ -3,6 +3,7 @@ streamlit
 google-genai
 Pillow
 PyPDF2
+pandas
 
 # LangChain Core (pin to 0.1.x to keep RetrievalQA import path)
 langchain>=0.1,<0.2
@@ -23,6 +24,9 @@ langchain-google-genai>=0.0.1,<0.1
 # Document loaders dependencies
 unstructured
 filetype
+openpyxl  # For Excel files
+python-pptx  # For PowerPoint files
+docx2txt  # For Word documents
 
 # Core LangChain dependencies
 langsmith
